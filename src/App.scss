@@ -1,0 +1,46 @@
+// @import "./themes/common.css";
+// @import "./themes/theme-dark.css";
+// @import "./themes/theme-light.css";
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+}
+
+.sd-markdown {
+    table {
+        text-indent: initial;
+        border-spacing: 2px;
+    }
+
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+
+    th {
+        color: #5c6b77;
+        font-weight: 500;
+        white-space: nowrap;
+        background: rgba(0, 0, 0, 0.02);
+    }
+
+    td,
+    th {
+        border-bottom: 1px solid #ebeef5;
+        border-right: 1px solid #ebeef5;
+        padding: 12px 6px;
+        min-width: 0;
+        box-sizing: border-box;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+        position: relative;
+        text-align: left;
+    }
+}

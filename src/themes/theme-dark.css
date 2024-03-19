@@ -1,0 +1,13 @@
+[data-theme="dark"] {
+    --colorBgBase: #ffffff;
+    --colorBgSecondary: #f7f7f7;
+    --colorBgTertiary: #ffffff;
+    --colorBgQuaternary: #ffffff;
+    --colorBgFive: #f7f7f7;
+    --colorBgSix: #ffffff;
+
+    --colorTextBase: #ffffff;
+    --colorTextSecondary: #979797;
+    --colorTextTertiary: #5e6272;
+
+}

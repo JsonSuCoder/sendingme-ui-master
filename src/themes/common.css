@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #fc774b;
+    --primary-color-active: #EA6134;
+    --error-color: #ff543d;
+    --success-color: #0abf52;
+    --warning-color: #f6851b;
+    --warning-bg-color: #f6851b;
+    --orange-color: #ffd54a;
+    --orange-second-color: #d26600;
+    --blue-color: #5385ff;
+    --roseColor: #ffb197;
+    --purpleColor: #b27aff;
+    --fogColor: #dac2fb;
+    --magnoliaColor: #f0e7fd;
+    --whiteColor: #ffffff;
+    --blackRussianColor: #272830;
+    --sorbusColor: #db6640;
+    --blackColor: #000000;
+    --whiteSmokeColor: #f7f7f7;
+    --whiteColor24: #ffffff3d;
+    --whiteColor40: #ffffff66;
+    --gray-666: #666;
+    --gray-838791: #838791;
+    --gray-5E6272: #5e6272;
+}
+
+[data-theme="dark"] {
+    --colorBgBase: #ffffff;
+    --colorBgSecondary: #f7f7f7;
+    --colorBgTertiary: #ffffff;
+    --colorBgQuaternary: #ffffff;
+    --colorBgFive: #f7f7f7;
+    --colorBgSix: #ffffff;
+    /* dialog */
+    --sd-dialog-bg-color: #272830;
+    --sd-dialog-card-bg-color: #15161b;
+    --sd-dialog-input-bg-color: #15161b;
+    --sd-dialog-dividers-bg-color: #414249;
+}
+
+[data-theme="light"] {
+    --colorBgBase: #000000;
+    --colorBgSecondary: #0f0b15;
+    --colorBgTertiary: #15161b;
+    --colorBgQuaternary: #272830;
+    --colorBgFive: #15161b;
+    --colorBgSix: #101217;
+    /* dialog */
+    --sd-dialog-bg-color: #f7f7f7;
+    --sd-dialog-card-bg-color: #ffffff;
+    --sd-dialog-input-bg-color: #ffffff;
+    --sd-dialog-dividers-bg-color: #e8e8e8;
+}

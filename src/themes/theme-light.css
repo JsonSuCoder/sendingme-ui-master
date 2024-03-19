@@ -1,0 +1,12 @@
+[data-theme="light"] {
+    --colorBgBase: #000000;
+    --colorBgSecondary: #0f0b15;
+    --colorBgTertiary: #15161b;
+    --colorBgQuaternary: #272830;
+    --colorBgFive: #15161b;
+    --colorBgSix: #101217;
+
+    --colorTextBase: #000000;
+    --colorTextSecondary: #414249;
+    --colorTextTertiary: #979797;
+}

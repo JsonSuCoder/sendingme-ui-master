@@ -363,6 +363,10 @@ module.exports = function (webpackEnv) {
                 },
               },
             },
+            {
+              test: /\.md$/,
+              use: "raw-loader"
+            },
             // "url" loader works like "file" loader except that it embeds assets
             // smaller than specified limit in bytes as data URLs to avoid requests.
             // A missing `test` is equivalent to a match.
