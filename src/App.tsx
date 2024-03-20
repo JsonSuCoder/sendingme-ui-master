@@ -5,6 +5,7 @@ import ButtonComponent from "./components/Button";
 import IconComponent from "./components/Icon";
 import ModalComponent from "./components/Modal";
 import AvatarComponent from "./components/Avatar";
+import TooltipComponent from "./components/Tooltip";
 import { useEffect, useState } from 'react';
 import React from 'react';
 
@@ -37,6 +38,7 @@ const items: MenuProps['items'] = [
 
   getItem('Modal', 'modal'),
   getItem('Avatar', 'avatar'),
+  getItem('Tooltip', 'tooltip'),
 ];
 
 function App() {
@@ -67,6 +69,9 @@ function App() {
         break;
       case "avatar":
         currentContent = <AvatarComponent />;
+        break;
+      case "tooltip":
+        currentContent = <TooltipComponent />;
         break;
     }
     setCurrentContent(currentContent);

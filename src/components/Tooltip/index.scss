@@ -1,0 +1,43 @@
+.tooltip-list {
+    overflow: auto;
+
+    .sd-btn {
+        display: inline-block;
+        width: 80px;
+        margin: 10px;
+    }
+
+    .tooltip-top {
+        margin-inline-start: 80px;
+        white-space: nowrap;
+        width: 264px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tooltip-bottom {
+        margin-inline-start: 80px;
+        white-space: nowrap;
+        width: 264px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tooltip-left {
+        width: 80px;
+        float: inline-start;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tooltip-right {
+        width: 80px;
+        margin-inline-start: 344px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
